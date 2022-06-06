@@ -55,7 +55,7 @@ public class JawDemo extends RootModel {
 	protected String workingDirname = "data";
 	List<String> ForceTargetNames = Arrays.asList("Brux_M6"); // "CANINE" or "LBITE"
 	
-	boolean withDisc = false;
+	boolean withDisc = true;
 	boolean condyleConstraints = true;
 	boolean condylarCapsule = false;
 	

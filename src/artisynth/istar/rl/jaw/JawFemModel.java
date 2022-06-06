@@ -740,12 +740,12 @@ public class JawFemModel extends JawBaseModel {
 				(Collidable) models().get("disc_right"));
 		// behav.setDrawContactForces (true);
 		behav.setDrawColorMap(ColorMapType.CONTACT_PRESSURE);
-		behav.getPenetrationDepthRange().setUpdating(ScalarRange.Updating.AUTO_FIT);
+		//behav.getPenetrationDepthRange().setUpdating(ScalarRange.Updating.AUTO_FIT);
 
 		behav = getCollisionBehavior((Collidable) rigidBodies().get("skull"), (Collidable) models().get("disc_left"));
 		// behav.setDrawContactForces (true);
 		behav.setDrawColorMap(ColorMapType.CONTACT_PRESSURE);
-		behav.getPenetrationDepthRange().setUpdating(ScalarRange.Updating.AUTO_FIT);
+		//behav.getPenetrationDepthRange().setUpdating(ScalarRange.Updating.AUTO_FIT);
 
 		CollisionManager cm = getCollisionManager();
 		RenderProps.setVisible(cm, true);
